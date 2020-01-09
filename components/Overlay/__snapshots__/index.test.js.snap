@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Showing or hiding overlay Hide overlay 1`] = `
+<div
+  className="overlay animating react-hidden"
+>
+  <span
+    className="overlay__icon icon-spinner6"
+  />
+</div>
+`;
+
+exports[`Showing or hiding overlay Show overlay 1`] = `
+<div
+  className="overlay animating react-hidden react-hidden--show"
+>
+  <span
+    className="overlay__icon icon-spinner6"
+  />
+</div>
+`;
+
+exports[`Showing or hiding overlay Show overlay with no-icon class 1`] = `
+<div
+  className="overlay animating react-hidden no-icon react-hidden--show"
+>
+  <span
+    className="overlay__icon icon-spinner6"
+  />
+</div>
+`;
